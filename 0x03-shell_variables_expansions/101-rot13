@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "YourTextHere" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tee >(tr 'A-Za-z' 'N-ZA-Mn-za-m')
-
+./rot13.sh "Hello, World!"
+./rot13.sh "Uryyb, Jbeyq!"
